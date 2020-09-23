@@ -3,6 +3,8 @@ import CradList from "./component/CardList";
 import "tachyons";
 import { robots } from "./component/robots";
 import SearchBox from "./component/SearchBox";
+//css
+import "./App.css"
 
 class App extends Component {
   constructor(){
@@ -25,7 +27,7 @@ class App extends Component {
 
     return (
       <div className="tc">
-        <h1>RoboFriend</h1>
+        <h1 className="f1">RoboFriend</h1>
         <SearchBox
         searchChange={this.onSearchChange}
         />
